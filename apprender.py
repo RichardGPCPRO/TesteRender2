@@ -14,5 +14,7 @@ def inscrito(nome_inscrito):
 def meucanal():
     return 'é o programação na prática'
 
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=5000)
+#if __name__ == '__main__': 
+    #app.run()
